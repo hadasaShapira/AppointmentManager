@@ -91,6 +91,7 @@ public class AppointmentsController : ControllerBase
 
     try
     {
+
       // Save changes to the database
       await db.SaveChangesAsync();
     }
